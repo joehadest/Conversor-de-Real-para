@@ -1,0 +1,72 @@
+main {
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+    margin-bottom: 12%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* Espaçamento entre os elementos do formulário */
+}
+
+.inputs-conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* Faz com que os elementos fiquem alinhados verticalmente */
+    align-items: center;
+    /* Centraliza os elementos horizontalmente */
+    gap: 15px;
+    /* Espaçamento uniforme entre os elementos */
+    margin-bottom: 50px;
+    /* Ajusta a distância entre os inputs e o botão */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centraliza o texto e input */
+}
+
+form button {
+    background-color: crimson;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    cursor: pointer;
+    width: 240px;
+    /* Define uma largura uniforme para o botão */
+    margin-top: 10px;
+    /* Aumenta a distância entre os inputs e o botão */
+    padding: 12px 0;
+    text-align: center;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: crimson;
+}
+
+main #result {
+    font-size: 2.0em;
+    color: firebrick;
+    margin-top: 40px;
+    /* Ajusta a altura do resultado */
+    text-align: center;
+}
+
+main #result span {
+    font-size: 0.6em;
+    margin-right: 30px;
+    margin-left: 30px;
+}
